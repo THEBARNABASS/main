@@ -1,0 +1,67 @@
+/* reset */
+@font-face {
+    font-family:"bebas-neue";
+    src: url(../assets/assets/fonts/bebas-neue/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+}
+/* header */
+header{
+    height: 60px ;
+    background-color: #F9003D;
+}
+
+header .header-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items:stretch;
+    height: 100%;
+}
+
+header nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid white; */
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-shadow: 2px 2px 10px black;
+    font-family: "bebas-neue";
+}
+
+header nav a:hover{
+    text-shadow: 2px 2px 10px yellow;
+    background-color: white;
+    color: red;
+
+}
+/* MAIN */
+
+main .banner{
+    height: 740px;
+    background-color: yellow;
+    background-image: url(../assets/assets_img/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+}
